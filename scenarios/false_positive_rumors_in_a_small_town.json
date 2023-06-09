@@ -1,0 +1,19 @@
+{
+  "description": "False positive rumors in a small town",
+  "actions": ["false positive rumor", "don't spread false rumors"],
+  "consequences": [
+    "Creating a false rumor in the eyes of the residents",
+    "Residents are encouraged to buy more",
+    "Residents are increasing their purchases",
+    "Because the amount of purchase has increased, so the business becomes more prosperous"
+  ],
+  "mechanisms": {
+    "Creating a false rumor in the eyes of the residents": "false positive rumor",
+    "Residents are encouraged to buy more": "Creating a false rumor in the eyes of the residents",
+    "Because the amount of purchase has increased, so the business becomes more prosperous": "Residents are increasing their purchases"
+  },
+  "utilities": {
+    "false positive rumor": -5,
+    "don't spread false rumors": 5
+  }
+}

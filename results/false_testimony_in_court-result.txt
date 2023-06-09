@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+False testimony in court:
+
+Utilities:
+   lying => good
+   don't lying => bad
+
+The best choise :
+   lying with 1 score.
+
+The intention of this problem :
+   for action "lying"
+   is consequence"The accused is tried".

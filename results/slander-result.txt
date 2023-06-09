@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+slander:
+
+Utilities:
+   slander => bad
+   don't slander => good
+
+The best choise :
+   don't slander with 3 score.
+
+The intention of this problem :
+   for action "don't slander"
+   is consequence"The idea is revealed but the person is not fired".

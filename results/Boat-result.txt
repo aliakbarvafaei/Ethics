@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+Boat:
+
+Utilities:
+   throw in water => good
+   not throw in water => bad
+
+The best choise :
+   throw in water with 1 score.
+
+The intention of this problem :
+   for action "throw in water"
+   is consequence"Biggest_People_Die".

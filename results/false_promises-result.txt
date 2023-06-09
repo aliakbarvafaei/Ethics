@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+False Promises:
+
+Utilities:
+   lying => bad
+   don't lying => good
+
+The best choise :
+   don't lying with 5 score.
+
+The intention of this problem :
+   for action "don't lying"
+   is consequence"not Creating a false belief in the employees' perspective".

@@ -1,0 +1,13 @@
+{
+    "description":"Wagon",
+    "actions": ["pull", "not pull"],
+    "consequences": ["OnePeopleDie", "FivePeopleDie"],
+    "mechanisms": {
+                    "OnePeopleDie": "pull",
+                    "FivePeopleDie": "not pull"
+                },
+    "utilities": {
+        "pull": 1,
+        "not pull": -5
+    }
+}

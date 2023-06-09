@@ -1,0 +1,13 @@
+{
+  "description": "False testimony in court",
+  "actions": ["lying", "don't lying"],
+  "consequences": ["The accused is tried", "The accused is exonerated"],
+  "mechanisms": {
+    "The accused is tried": "lying",
+    "The accused is exonerated": "don't lying"
+  },
+  "utilities": {
+    "lying": 1,
+    "don't lying": -5
+  }
+}

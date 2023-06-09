@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+Lie Robot:
+
+Utilities:
+   lie => bad
+   not lie => good
+
+The best choise :
+   not lie with 3 score.
+
+The intention of this problem :
+   for action "not lie"
+   is consequence"not Creating_Wrong_Belief_In_Old" and "not Interest_Old_To_Exercise_And_HealthyFood".

@@ -1,0 +1,20 @@
+{
+  "description": "False Promises",
+  "actions": ["lying", "don't lying"],
+  "consequences": [
+    "Creating a false belief in the employees' perspective",
+    "Employees are encouraged to increase their hours and work efficiency",
+    "Employees increase their work efficiency",
+    "Because they have increased their work efficiency, the company gets better work results"
+  ],
+  "mechanisms": {
+    "Creating a false belief in the employees' perspective": "lying",
+    "Employees are encouraged to increase their hours and work efficiency": "Creating a false belief in the employees' perspective",
+    "Employees increase their work efficiency": "Employees are encouraged to increase their hours and work efficiency",
+    "Because they have increased their work efficiency, the company gets better work results": "Employees increase their work efficiency"
+  },
+  "utilities": {
+    "lying": -5,
+    "don't lying": 5
+  }
+}

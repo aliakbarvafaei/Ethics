@@ -1,0 +1,21 @@
+{
+  "description": "slander",
+  "actions": ["slander", "don't slander"],
+  "consequences": [
+    "The idea is revealed but the person is not fired",
+    "The head of the department is dismissed",
+    "The head of the department is not dismissed and continues to harass the employees"
+  ],
+  "mechanisms": {
+    "The idea is revealed but the person is not fired": "don't slander",
+    "The head of the department is dismissed": [
+      "slander",
+      "The idea is revealed but the person is not fired"
+    ],
+    "The head of the department is not dismissed and continues to harass the employees": "slander"
+  },
+  "utilities": {
+    "slander": -3,
+    "don't slander": 3
+  }
+}

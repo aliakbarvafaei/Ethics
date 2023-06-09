@@ -1,0 +1,23 @@
+{
+  "description": "Lie Robot",
+  "actions": ["lie", "not lie"],
+  "consequences": [
+    "Creating_Wrong_Belief_In_Old",
+    "Interest_Old_To_Exercise_And_HealthyFood",
+    "Exercise_Each_Day",
+    "Exercise_And_HealthyFood_For_HealthyBody"
+  ],
+  "mechanisms": {
+    "Creating_Wrong_Belief_In_Old": "lie",
+    "Interest_Old_To_Exercise_And_HealthyFood": [
+      "lie",
+      "Creating_Wrong_Belief_In_Old"
+    ],
+    "Exercise_Each_Day": "Interest_Old_To_Exercise_And_HealthyFood",
+    "Exercise_And_HealthyFood_For_HealthyBody": "Exercise_Each_Day"
+  },
+  "utilities": {
+    "lie": -3,
+    "not lie": 3
+  }
+}

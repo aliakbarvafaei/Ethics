@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+Wagon:
+
+Utilities:
+   pull => good
+   not pull => bad
+
+The best choise :
+   pull with 1 score.
+
+The intention of this problem :
+   for action "pull"
+   is consequence"OnePeopleDie".

@@ -1,0 +1,14 @@
+All the obtained results are based on the school of pluralism.
+
+False positive rumors in a small town:
+
+Utilities:
+   false positive rumor => bad
+   don't spread false rumors => good
+
+The best choise :
+   don't spread false rumors with 5 score.
+
+The intention of this problem :
+   for action "don't spread false rumors"
+   is consequence"not Creating a false rumor in the eyes of the residents".
